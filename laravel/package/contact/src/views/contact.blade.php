@@ -12,7 +12,7 @@
         @csrf 
         <input type="text" name="name" placeholder="Name" id="">
         <input type="email" name="email" placeholder="Email" id="">
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Query"></textarea>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Query"></textarea>
         <input type="submit" value="Submit">
     </form>
 </body>
