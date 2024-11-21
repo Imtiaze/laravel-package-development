@@ -17,7 +17,7 @@ class ContactController extends Controller
 
     public function send(Request $request)
     {
-        Mail::to('imtiaze.techvill@gmail.com')->send(new ContactMailable($request->all()));
+        Mail::to(config('contact.send_email_to'))->send(new ContactMailable($request->all()));
         Contact::create($request->all());
 
         return redirect(route('contact'));
