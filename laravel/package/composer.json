@@ -1,5 +1,5 @@
 {
-    "name": "bitfumes/contact",
+    "name": "imtiaze/contact",
     "description": "This will send email to admin and save contact query in database",
     "type": "library",
     "license": "MIT",
@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
       "psr-4": {
-        "Bitfumes\\Contact\\ ": "src/"
+        "Imtiaze\\Contact\\ ": "src/"
       }
     }
   }

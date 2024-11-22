@@ -30,7 +30,7 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/",
-            "Bitfumes\\Contact\\": "package/contact/src/"
+            "Imtiaze\\Contact\\": "package/contact/src/"
         }
     },
     "scripts": {

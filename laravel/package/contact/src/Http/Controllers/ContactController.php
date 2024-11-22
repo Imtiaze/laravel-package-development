@@ -1,10 +1,10 @@
 <?php
 
-namespace Bitfumes\Contact\Http\Controllers;
+namespace Imtiaze\Contact\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Bitfumes\Contact\Mail\ContactMailable;
-use Bitfumes\Contact\Models\Contact;
+use Imtiaze\Contact\Mail\ContactMailable;
+use Imtiaze\Contact\Models\Contact;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 

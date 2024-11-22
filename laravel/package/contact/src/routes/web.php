@@ -1,6 +1,6 @@
 <?php
 
-use Bitfumes\Contact\Http\Controllers\ContactController;
+use Imtiaze\Contact\Http\Controllers\ContactController;
 use Illuminate\Http\Request;
 
 Route::get('contact', [ContactController::class, 'index'])->name('index');
